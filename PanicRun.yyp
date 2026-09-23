@@ -35,7 +35,7 @@
   },
   "name":"PanicRun",
   "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"font_unbounded","path":"fonts/font_unbounded/font_unbounded.yy",},},
     {"id":{"name":"obj_alarm","path":"objects/obj_alarm/obj_alarm.yy",},},
     {"id":{"name":"obj_best","path":"objects/obj_best/obj_best.yy",},},
     {"id":{"name":"obj_clock","path":"objects/obj_clock/obj_clock.yy",},},
