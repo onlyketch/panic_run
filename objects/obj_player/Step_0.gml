@@ -1,4 +1,4 @@
-if (global.game_started) {
+if (global.game_started && !global.game_over) {
 	speed = val_speed;
 }
 
