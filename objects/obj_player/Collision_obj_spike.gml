@@ -1,5 +1,10 @@
 if (!global.game_over) {
 	global.game_over = true;
+	global.game_started = false;
+	obj_controller.spawning_spikes = false;
+	obj_controller.spike_index = 0;
+	obj_controller.occupied_x = [];
+	
 	speed = 0;
 	
 	with (obj_controller) {
