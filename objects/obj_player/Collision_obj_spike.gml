@@ -20,5 +20,5 @@ if (!global.game_over) {
 	obj_coins.visible = true;
 	obj_best.visible = true;
 	
-	instance_create_layer(140, 280, "Instances", obj_play);
+	instance_create_layer(140, 280, "Instances", obj_play, {state: 1});
 }
