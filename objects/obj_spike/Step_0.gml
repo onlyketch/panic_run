@@ -1,4 +1,4 @@
-if (state == 0 && falling == false) {
+if (state == 0 && falling == false && !global.game_over) {
 	y += move_speed;
 	
 	if (y > -40) {
@@ -12,4 +12,8 @@ if (state == 0 && falling == false) {
 		falling = true;
 		alarm[0] = game_get_speed(gamespeed_fps) * 4;
 	}
+}
+
+if (y < -100 && global.game_over) {
+	instance_destroy();
 }

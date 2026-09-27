@@ -12,13 +12,11 @@ if (!global.game_over) {
 	}
 	
 	with (obj_spike) {
-		instance_destroy();
+		speed = 0;
 	}
+	
+	alarm[0] = game_get_speed(gamespeed_fps) * 1.5;
 	
 	obj_score.visible = false;
 	
-	instance_create_layer(0, 0, "Instances", obj_best);
-	instance_create_layer(0, 0, "Instances", obj_coins);
-	instance_create_layer(0, 0, "Instances", obj_game_over);
-	instance_create_layer(140, 280, "Instances", obj_play, {state: 1});
 }
