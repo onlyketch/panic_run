@@ -1,0 +1,1 @@
+text_y = lerp(text_y, target_y, 0.08);

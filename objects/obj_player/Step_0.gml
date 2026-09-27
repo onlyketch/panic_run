@@ -6,11 +6,14 @@ if (global.game_started && !global.game_over) {
 		direction = 0;
 	}
 	
-	
 }
 
-if (x >= room_width - sprite_width) {
+if (x >= room_width) {
 	direction = 180;
-} else if (x <= 0) {
+} else if (x <= 24) {
 	direction = 0;
+}
+
+if (global.game_over) {
+    image_angle = max(image_angle - 15, -90);
 }
