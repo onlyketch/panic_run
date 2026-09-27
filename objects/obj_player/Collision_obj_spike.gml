@@ -13,6 +13,7 @@ if (!global.game_over) {
 	
 	with (obj_spike) {
 		speed = 0;
+		alarm[1] = -1;
 	}
 	
 	alarm[0] = game_get_speed(gamespeed_fps) * 1.5;
