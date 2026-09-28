@@ -7,4 +7,4 @@ spike_index = 0;
 occupied_x = [];
 
 global.game_score = 0;
-global.game_coins = 64;
+global.game_coins = 0;
