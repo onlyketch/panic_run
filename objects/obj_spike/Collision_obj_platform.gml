@@ -8,5 +8,8 @@ if (global.game_score % 2 == 0) {
  }
 }
 
+// *** Create Ghost *** //
+instance_create_layer(x, y, "Instances", obj_spike_ghost);
+
 
 instance_destroy();
